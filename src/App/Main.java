@@ -3,6 +3,9 @@ package App;
 import dao.LaptopDAO;
 import modelo.Laptop;
 import view.Tela;
+/*
+    Código desenvolvido em Intelij IDEA
+ */
 
 public class Main {
 
@@ -21,8 +24,6 @@ public class Main {
 
         //Chamada da Tela
         Tela tela = new Tela(dao);
-
-
 
     }
 }
